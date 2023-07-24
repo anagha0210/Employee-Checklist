@@ -1,0 +1,28 @@
+
+.container{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+.selectedstyle{
+  box-shadow:0px 0px 5px 5px black  ;
+}
+.fimg,.mimg{
+  height:300px; 
+}
+.card{
+  height:450px;
+}
+h1,h2,h3,h4,p{
+  text-align: center;
+}
+.d{
+  display:grid;
+  grid-template-rows: 4;
+  grid-template-columns: 1fr;
+}
+@media only screen and (max-width:600px){
+  .employee-collection{
+    grid-template-columns: 1fr;
+  }
+}
